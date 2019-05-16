@@ -11,14 +11,20 @@
     color: #5C6166
   }
 
-
+  .image {
+    background-image: url(../img/christopher-czermak-705859-unsplash.jpg);
+    background-size: cover;
+    height: 350px
+}
 
   .title{
-    text-align: center;
-    color: white;
-    background-color: #5C6166;
-    height: 50px
+    text-align: left;
+    color: #5C6166;
+    font-size: 4em;
+    padding-top: 8%;
+    padding-left: 4%
   }
+
   .main {
     display: flex;
     min-height: 700px
