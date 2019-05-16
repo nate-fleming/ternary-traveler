@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  color {
+    color: #CFDAE5;
+    color: #6689AA;
+    color: #8A9299;
+    color: #B5CEE5;
+    color: #5C6166
+  }
+
+
+
+  .title{
+    text-align: center;
+    color: white;
+    background-color: #5C6166;
+    height: 50px
+  }
+  .main {
+    display: flex;
+    min-height: 700px
+  }
+
+  #countries {
+    background-color: #6689AA;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+  }
+
+  #countries h2{
+    font-size: 2em;
+    margin-bottom: 4%
+  }
+
+  #countries h3 {
+    font-size: 1.5em;
+  }
+
+  #countries button {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    font-size: 1em
+  }
+
+  #countries hr {
+    margin: 4% 0%
+  }
+
+  #pointsOfInterest {
+    background-color: #CFDAE5;
+    flex-basis: 75%;
+    text-align: center
+  }
+
+  .interest {
+    text-align: left;
+    background-color: white;
+    padding: 4% 8%;
+    margin: 2% 2%
+  }
+
+  .interest button {
+    margin-top: 4%;
+    margin-right: 2%;
+    background-color: #B5CEE5;
+    width:20%;
+    font-size: 1em
+  }
+
+  .interest-form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-content: space-between;
+    background-color: white;
+    padding: 4% 8%;
+    margin: 2% 2%
+  }
+
+  .interest-form h2, h3, h4 {
+    margin: 2% 0
+  }
+
+  .interest-form button {
+    margin-top: 4%;
+    margin-left: 40%;
+    background-color: #B5CEE5;
+    width:20%;
+    font-size: 1.5em
+  }
+
+  .interest-form input, select {
+    font-size: 1.25em;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    margin-right: 20%
+  }
+
+
+  .edit-form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: white;
+    padding: 4% 8%;
+    margin: 2% 2%
+  }
+
+  .edit-form h4, h2, label {
+    margin-top: 2%;
+    font-size: 1.25em
+  }
+
+  .edit-form input {
+    font-size: 1.25em;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    margin-right: 20%
+  }
+
+  .edit-form button {
+    margin-top: 4%;
+    margin-left: 40%;
+    background-color: #B5CEE5;
+    width:20%;
+    font-size: 1.5em
+  }
+
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+  }
+
+  .modal-content button {
+    width: 20%;
+    padding: 1%
+  }
+
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    align-self: flex-end;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
